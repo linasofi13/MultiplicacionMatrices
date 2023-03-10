@@ -524,7 +524,7 @@ public class MultiplicacionMatrices extends JFrame {
 
         chart = ChartFactory.createBarChart(
                 "Tiempos de ejecucion para diferentes nxn", // chart title
-                "Algoritmos de Multiplicacion de Matrices", // domain axis label
+                "Tamaño de la matriz", // domain axis label
                 "Tiempo en Nanosegundos", // range axis label
                 dataset1, // data
                 PlotOrientation.VERTICAL,
