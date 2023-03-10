@@ -1,5 +1,4 @@
 import java.util.Arrays;
-import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
 import java.lang.*;
@@ -23,14 +22,14 @@ import org.jfree.data.category.DefaultCategoryDataset;
  *
  * @author htrefftz
  */
-public class DACCodigo extends JFrame {
+public class MultiplicacionMatrices extends JFrame {
     JFreeChart chart;
     public static long[] tiemposTradicional = new long[13];
     public static long[] tiemposStrassen = new long[13];
 
     public static int[] potenciasDe2 = {2, 4, 8, 16, 32, 64, 128, 256, 512};
 
-    public DACCodigo() {
+    public MultiplicacionMatrices() {
         super("Grafica Algoritmos");
         setSize(800, 600);
         setLayout(null);
@@ -617,7 +616,7 @@ public class DACCodigo extends JFrame {
                     tiemposTradicional[i] = tiempoNanosegundos(C, D, "Tradicional");
                     tiemposStrassen[i] = tiempoNanosegundos(C, D, "Strassen");
                 }
-                DACCodigo demo = new DACCodigo();
+                MultiplicacionMatrices demo = new MultiplicacionMatrices();
             } else if (opcion_1 == 3) {
                 condicion = false;
             } else {
@@ -637,7 +636,6 @@ public class DACCodigo extends JFrame {
         System.out.println(Arrays.deepToString(D));
         */
         menu();
-       // DACCodigo demo = new DACCodigo();
     }
 
 }
