@@ -47,6 +47,9 @@ Para poder analizar a partir de que n es más rápido el algoritmo de Strassen q
  
 ### Output :globe_with_meridians:
 
+![image](https://user-images.githubusercontent.com/103126242/224504487-6fdc1056-693d-4b0b-a2d1-15c438ed009b.png)
+- Se implementó un pequeño menú dónde se pueden seleccionar distintos tamaños de matrices y realizar su respectiva multiplicación. Se muestran ambas matrices, la matriz resultante para ambos algoritmos y la comprobación de si son iguales o no.
+
 ![image](https://user-images.githubusercontent.com/103126242/224434557-8e3d3f9f-adb3-442b-b459-a5b6e17d62dd.png)
 
 - Al graficar los tiempos hasta un n de 128 (2 a la 7), se evidencia que el algoritmo de Strassen toma más tiempo que el tradicional
